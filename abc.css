@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+  }
+  
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+  }
+  
+  ul.navbar li {
+    float: left;
+  }
+  
+  ul.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    background-color: whitesmoke;
+    color: blue;
+    text-align: center;
+  }
+  input[type="text"]
+   {
+    width: 100%;
+    padding: 12px;
+    margin: 80px;
+    background-color: lightskyblue;
+    color: black;
+   }
+    input[type="text"] 
+    {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      background-color: lightskyblue;
+      color: black;
+    }
+     input[type="email"]
+    {
+     width: 100%;
+     padding: 12px;
+     margin: 8px 0;
+     background-color: lightskyblue;
+     color: black;
+    }
+     input[type="text" ]
+    {
+     width: 100%;
+     padding: 12px;
+     margin: 8px 0;
+     background-color: lightskyblue;
+     color: black;
+    }    
+     input[type="number"]
+    {
+     width: 100%;
+     padding: 12px;
+     margin: 8px 0;
+     background-color: lightskyblue;
+     color: black;
+    }
+     input[type="submit"] 
+    {
+     background-color:darkcyan ;
+     color:white;
+     padding:15px;
+     border-style:solid;
+     border-color:black;
+    }
