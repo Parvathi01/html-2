@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <style>
+     {
+    margin: 0;
+     }
+  
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+  }
+  
+  ul.navbar li {
+    float: left;
+  }
+  
+  ul.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    background-color: whitesmoke;
+    color: blue;
+    text-align: center;
+  }
+  input[type="text"]
+   {
+    width: 100%;
+    padding: 12px;
+    margin: 80px;
+    background-color: lightskyblue;
+    color: black;
+   }
+    input[type="text"] 
+    {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      background-color: lightskyblue;
+      color: black;
+    }
+     input[type="email"]
+    {
+     width: 100%;
+     padding: 12px;
+     margin: 8px 0;
+     background-color: lightskyblue;
+     color: black;
+    }
+     input[type="text" ]
+    {
+     width: 100%;
+     padding: 12px;
+     margin: 8px 0;
+     background-color: lightskyblue;
+     color: black;
+    }    
+     input[type="number"]
+    {
+     width: 100%;
+     padding: 12px;
+     margin: 8px 0;
+     background-color: lightskyblue;
+     color: black;
+    }
+     input[type="submit"] 
+    {
+     background-color:darkcyan ;
+     color:white;
+     padding:15px;
+     border-style:solid;
+     border-color:black;
+    }
+    </style>
+
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+
+    <h1>REGISTERATION FORM</h1>
+
+    <form>
+      <label for="firstname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" placeholder="First Name" /><br />
+      <label for="lastname">Last Name:</label><br />
+      <input type="text" id="lname" name="lname" placeholder="Last Name" /><br />
+      <label for="email">E-Mail ID:</label><br />
+      <input type="email" id="email" name="email" placeholder="E-Mail" /><br />
+      <label for="institutionname">Institution Name:</label><br />
+      <input type="text" id="iname" name="iname" placeholder="Institution Name" /><br />
+      <label for="number">Contact number:</label><br />
+      <input type="number"id="number"name="number"placeholder="Number" /><br />
+
+      
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
